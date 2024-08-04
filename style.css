@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+  }
+
+h1, p {
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p, a {
+    font-size: 20px;
+}
+
+div.container {
+    text-align: center;
+    background-color: rgb(131, 178, 223);
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+ul.links {
+    display: inline-block;
+    text-align: left;
+}
+
+/*******Specify recipe pages*******/
+
+h1.title {
+    text-align: left;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p.desc {
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: left;
+    margin-top: -1%;
+}
+
+body.recipe_page {
+    margin-left: 25px;
+}
+
+img {
+    width: 350px;
+    height: auto;
+    border-radius: 25%;
+}
